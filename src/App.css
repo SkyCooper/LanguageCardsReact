@@ -1,0 +1,16 @@
+.app-container{
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: #32CED9;
+  border-radius: 0 0 20px 20px;
+}

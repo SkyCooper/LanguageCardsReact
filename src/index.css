@@ -2,4 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+background: rgb(51,55,55);
+background: linear-gradient(17deg, rgba(51,55,55,1) 17%, rgba(237,231,99,1) 62%);
+height: 100vh;
 }
