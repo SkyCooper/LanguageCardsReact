@@ -56,7 +56,7 @@ You can see the visual representation of the website above.
 
 - Step 1: Create React App using `npx create-react-app language-cards`
 
-- Step 2: Build Languages Cards app using [data.js](data.js), images in [assets](./assets/) folder.
+- Step 2: Build Languages Cards app using [data.js](./src/data/data.js), images in [assets](.src/assets/) folder.
 
 - Step 4: Push your application into your own public repo on Github
 
