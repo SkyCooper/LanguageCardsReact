@@ -1,14 +1,14 @@
-# Project : Template
+# Project : Language Cards
 
 ## Check The Live Website ➡️ [Live Website](https://skycooper.github.io)
 
 ## Visualization of the Website
 
-![Form](./gallery.gif)
+![Form](./language-cards.gif)
 
 ## Description
 
-Project aims to create an image gallery app using React.
+Project aims to create a Languages Cards App using React.
 
 ## Learning Outcomes
 
@@ -25,23 +25,26 @@ At the end of the project, you will be able to;
 ## Project Skeleton
 
 ```
-Image Gellery Project(folder)
+Language Cards Project(folder)
 |
 |----README.md
 ├── public
 │     └── index.html
 ├── src
 │    ├── components
-│    │       ├── Picture.jsx
-│    ├── pages
-│    │       ├── Homepage.jsx
+│    │       └── card
+│    │             ├── Card.css
+│    │             └── Card.js
 │    ├── helper
 │    │       └── data.js
-│    ├── styles
-│    │       ├── style.css
+│    ├── assets.js
+│    │       └── [images]
 │    ├── App.js
+│    ├── App.css
 │    ├── index.js
-└── package.json
+│    └── index.css
+├── package.json
+└── yarn.lock
 ```
 
 ### Overview
@@ -51,17 +54,17 @@ You can see the visual representation of the website above.
 
 ## Notes
 
-- Step 1: Create React App using `npx create-react-app image-gallery`
+- Step 1: Create React App using `npx create-react-app language-cards`
 
-- Step 2: For images you can use [Images](./src/helper/data.js).
+- Step 2: Build Languages Cards app using [data.js](data.js), images in [assets](./assets/) folder.
 
-- Step 3: Push your application into your own public repo on Github
+- Step 4: Push your application into your own public repo on Github
 
-- Step 4: Add project gif to your project and README.md file.
+- Step 5: Add project gif to your project and README.md file.
 
 ## Resources
 
-- 🔥 You can use [`data.js`](./src/helper/data.js) for your own work.
+- 🔥 You can use [`data.js`](./src/data/data.js) for your own work.
 
 # <center> ⌛ Happy Coding ✍ </center>
 
