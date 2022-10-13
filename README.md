@@ -1,6 +1,6 @@
 # Project : Language Cards
 
-## Check The Live Website ➡️ [Live Website](https://skycooper.github.io)
+## Check The Live Website ➡️ [Live Website](https://cooperlanguagecard.netlify.app/)
 
 ## Visualization of the Website
 
@@ -33,9 +33,16 @@ Language Cards Project(folder)
 ├── src
 │    ├── components
 │    │       └── card
-│    │             ├── Card.css
-│    │             └── Card.js
-│    ├── helper
+│    │             ├── Card.jsx
+│    │             └── Carditem.jsx
+│    │             └── card.css
+│    │       └── header
+│    │             ├── Header.jsx
+│    │             └── header.css
+│    │       └── icon
+│    │             ├── Icon.jsx
+│    │             └── icon.css
+│    ├── data
 │    │       └── data.js
 │    ├── assets.js
 │    │       └── [images]
