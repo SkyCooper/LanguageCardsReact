@@ -39,7 +39,7 @@ const data = [
     options: ["BackEnd", "1990s", "Sun Microsystems"],
   },
   {
-    name: "c++",
+    name: "cpp",
     img: cpp,
     options: ["Game Dev.", "1980s", "Bjarne Stroustrup"],
   },
