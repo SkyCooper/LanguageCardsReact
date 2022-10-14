@@ -1,6 +1,7 @@
 import data from "../../data/data";
 import "./card.css";
 import Carditem from "./Carditem";
+import {v1 as uuid} from "uuid"
 
 
 const Card = () => {
@@ -9,7 +10,7 @@ const Card = () => {
       {data.map((item) => {
         const { name, img, options } = item;
         return (
-          <div id={name} key={name} className="card-container">
+          <div key={uuid()} className="card-container">
             <Carditem name={name} img={img} options={options} />
           </div>
         );
